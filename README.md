@@ -1,7 +1,27 @@
-# phonebook
-Console Application of a Phonebook Manager
+# Phonebook Application
+A simple Console Application similar with a PhoneBook Manager
 
-GENERAL DESCRIPTION OF THE APPLICATION
+# Prerequisites
+You need to have at least JDK8 installed in your machine, in order for the application to run. You can [click here](https://www3.ntu.edu.sg/home/ehchua/programming/howto/JDK_Howto.html)
+for reading a tutorial on how to install JDK in Windows and/or Ubuntu
+
+# Installation
+This Application does not require any specific installation. You just need to download it locally, and after that you simple run the code.
+
+# Running the Application
+  1. After you have download the app, you open your CMD and go to the Downloads\PhoneBook\out\production\PhoneBook (in case your Project
+  folder is located somewhere else rather than the download folder, you just go in that location).
+  2. You simple run the pre-complied class PhoneBookApp.class, because there is where the MAIN function is
+    
+    java PhoneBookApp
+    
+  3. You can open the project from you favourite IDE, and then run the main function of the Application from inside your IDE
+  
+ # Built With
+* [JAVA 8](https://www.java.com/en/download/) - The programming language used
+
+
+# General discription of how code is thought
 
 This is a relatively simple project which imitates the behaviour of a Phonebook Manager. The project has in itself 5 classes:
   1. PhoneBookApp -> the class which also executes the whole application, since the "main" function is placed there.
@@ -15,18 +35,4 @@ This is a relatively simple project which imitates the behaviour of a Phonebook 
                      edit an existing one, show all the saved contacts and even find a certain contact, searching by name and surname.
   5. Menu         -> which is used to simplify and make code more structured and readable, by avoiding the menu options to be shown in 
                      the main class.
-                     
-HOW IT WORKS
-
-  After you run the application, the first thing it appears is the welcoming menu. It allows you to perform 5 actions. Based on which 
-  number you choose, the main function calls the PhoneManager, which performs the required action. The actions are as follows and are self
-  explanatory.
-    1. Search Contact
-    2. Show all Contacts
-    3. Add a new Contact
-    4. Modify Contact
-    5. Delete Contact
-    Each other number exits the program.
-    
-  All the modifications are saved in a list contained in PhoneManager class. When we exit the program, all the modification (new or
-  deleted contacts) are written in the PhoneBook.bin binary file.
+                    
